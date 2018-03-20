@@ -1,0 +1,35 @@
+h1, h2, h3, .display-1 {
+  font-family: "Playfair Display", serif; }
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: rgba(32, 35, 41, 0.8); }
+
+.navbar-brand {
+  font-family: "Playfair Display", serif; }
+
+.top-bar {
+  background: #009a9c; }
+
+.jumbotron {
+  padding: 18vh 0;
+  background: url(../img/bakery.jpg) no-repeat;
+  background-size: cover;
+  background-position: center right;
+  background-attachment: fixed;
+  border-radius: 0;
+  color: white; }
+
+#intro {
+  background-color: #009a9c;
+  padding: 10vh 0; }
+
+#services {
+  padding: 10vh 0; }
+
+footer {
+  background: #40434a;
+  color: white;
+  padding: 10vh 0; }

@@ -1,1 +1,48 @@
 @import "custom";
+
+// font-family: 'Playfair Display', serif;
+// font-family: 'Lora', serif;
+
+h1, h2, h3, .display-1 {
+  font-family: $font-family-heading;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: $dark-opacity;
+}
+
+.navbar-brand {
+  font-family: $font-family-heading;
+}
+
+.top-bar {
+  background: $primary;
+}
+
+.jumbotron {
+  padding: 18vh 0;
+  background: url(../img/bakery.jpg) no-repeat;
+  background-size: cover;
+  background-position: center right;
+  background-attachment: fixed;
+  border-radius: 0;
+  color: white;
+}
+
+#intro {
+  background-color: $primary;
+  padding: $section-padding;
+}
+
+#services {
+  padding: $section-padding;
+}
+
+footer {
+  background: $secondary;
+  color: white;
+  padding: $section-padding;
+}

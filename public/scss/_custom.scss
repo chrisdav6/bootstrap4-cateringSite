@@ -1,3 +1,11 @@
-$primary: #4ecdc4;
-$secondary: #ff6b6b;
-$dark: #2e4057;
+$primary: #009a9c;
+$secondary: #40434a;
+$dark: #202329;
+$dark-opacity: rgba($dark, .8);
+
+$body-bg: $dark;
+$body-color: #efeeeb;
+
+$section-padding: 10vh 0;
+$font-family-base: 'Lora', serif;
+$font-family-heading: 'Playfair Display', serif;
